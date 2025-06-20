@@ -1,0 +1,43 @@
+site_name: ReadySteadyPlug Support Pages
+site_url: https://support.readysteadyplug.com
+theme:
+  name: material
+  logo: assets/logo.svg
+  favicon: assets/favicon.png
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: teal
+      accent: deep purple
+
+    # Light Mode
+    # can be customised via /stylesheets/extra.css
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: light blue
+      accent: deep orange
+  
+  font:
+    text: Figtree
+    code: Red Hat Mono
+
+  features:
+    - navigation.footer
+  
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+
+copyright: Copyright &copy; 2025 ReadySteadyPlug Pty Limited
