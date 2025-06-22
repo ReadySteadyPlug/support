@@ -95,8 +95,8 @@ extra_css:
 plugins:
   - search
  # - roamlinks # Obsidian Style Image Support ![[<attachment_name>]]
-  - callouts
-#  - social
+ # - callouts
+ #  - social
 #social plugin breaks build on Windows
 
 markdown_extensions:
