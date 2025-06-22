@@ -54,7 +54,7 @@ theme:
     - search.share                # Search Query can be copied to Clipboard
     - search.suggest              # Display likeliest completion for the last queried word
     - content.tabs.link
-    - content.code.annotate
+    #- content.code.annotate
     - content.code.copy
   language: en
   palette:
