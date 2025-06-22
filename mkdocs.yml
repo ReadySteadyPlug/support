@@ -94,7 +94,7 @@ extra_css:
 
 plugins:
   - search
-  - roamlinks # Obsidian Style Image Support ![[<attachment_name>]]
+ # - roamlinks # Obsidian Style Image Support ![[<attachment_name>]]
   - callouts
 #  - social
 #social plugin breaks build on Windows
