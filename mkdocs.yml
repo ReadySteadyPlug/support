@@ -1,17 +1,17 @@
-site_name: ReadySteadyPlug Support Pages
+site_name: ReadySteadyPlug Support
 site_url: https://support.readysteadyplug.com
 
 # Custom Homepage Elements
-home_cover_image: attachments/wizard-posting.png # This path starts at your root mkdocs directory.
-home_tagline: Shadow Wizards Only
+home_cover_image: attachments/charging_setup.png # This path starts at your root mkdocs directory.
+home_tagline: ReadySteadyPlug - Let's Go
 home_description: |
-  This site is an example showcase for my "mkdocs-coverpage" repository.
+  Weclome to the support and information pages for ReadySteadyPlug.
 
 # Gradient Color
 home_gradient_hsla: hsla(0deg,47%,55%,1) # Default Green: hsla(160deg,47%,55%,1)
 
 # Custom Homepage Button(s)
-home_button1_name: Main Clicky                   # Comment this parameter out to remove the button.
+home_button1_name: Getting Started                  # Comment this parameter out to remove the button.
 home_button1_url: Folder1/                       # This path starts at your root mkdocs directory.
 home_button1_theme: md-button md-button--primary # Options: "md-button", "md-button md-button--primary"
 home_button1_icon: people                        # Options: "people", "gear", "image"
@@ -95,9 +95,8 @@ extra_css:
 plugins:
   - search
  # - roamlinks # Obsidian Style Image Support ![[<attachment_name>]]
- # - callouts
- #  - social
-#social plugin breaks build on Windows
+ # - callouts #callouts breaks build on Github Workflows. CLI file update required.
+ #  - social #social plugin breaks build on Windows
 
 markdown_extensions:
   - pymdownx.highlight:
