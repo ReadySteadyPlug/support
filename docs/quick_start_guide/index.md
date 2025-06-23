@@ -1,7 +1,11 @@
 ## Pairing your charge point
 
 There are a few ways you can perform the initial pairing of your charge point.
-Note you only need to pair your device once.  After that you can just use the RSP app to start/stop your charging session.
+
+!!! note "Note"
+
+    Note you only need to pair your device once.  After that you can just use the RSP app to simply start/stop or schedule your charging session as per the instructions below.
+
 
 ### Install the RSP app
 The RSP app is available for both Android and iOS and is the easiest easy to interact with your charge point, including initial pairing and starting/stopping charge sessions.

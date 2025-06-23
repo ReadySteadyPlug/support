@@ -1,6 +1,16 @@
 site_name: ReadySteadyPlug Support
 site_url: https://support.readysteadyplug.com
 
+nav:
+  - Home: index.md
+  - Quick Start Guide:
+      - Getting Started: quick_start_guide/index.md  # Displayed as "Getting Started" in the navigation
+      #- Page 1: section1/page1.md
+  #- Section 2:
+  #    - Title for Section 2: section2/index.md  # Displayed as "Title for Section 2"
+  #    - Page 2: section2/page2.md
+
+
 # Custom Homepage Elements
 home_cover_image: attachments/charging_setup.png # This path starts at your root mkdocs directory.
 home_tagline: ReadySteadyPlug - Let's Go
@@ -12,7 +22,7 @@ home_gradient_hsla: hsla(0deg,47%,55%,1) # Default Green: hsla(160deg,47%,55%,1)
 
 # Custom Homepage Button(s)
 home_button1_name: Getting Started                  # Comment this parameter out to remove the button.
-home_button1_url: Folder1/                       # This path starts at your root mkdocs directory.
+home_button1_url: Quick Start Guide/                       # This path starts at your root mkdocs directory.
 home_button1_theme: md-button md-button--primary # Options: "md-button", "md-button md-button--primary"
 home_button1_icon: people                        # Options: "people", "gear", "image"
 home_button1_blurb: |                            # Short description of this button / section.

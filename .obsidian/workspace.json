@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Quick Start Guide/Getting started with your new charge point.md",
+                "file": "docs/quick_start_guide/index.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Getting started with your new charge point"
+              "title": "index"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Quick Start Guide/Getting started with your new charge point.md",
+                "file": "docs/quick_start_guide/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Getting started with your new charge point"
+              "title": "Backlinks for index"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Quick Start Guide/Getting started with your new charge point.md",
+                "file": "docs/quick_start_guide/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Getting started with your new charge point"
+              "title": "Outgoing links from index"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Quick Start Guide/Getting started with your new charge point.md",
+                "file": "docs/quick_start_guide/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Getting started with your new charge point"
+              "title": "Outline of index"
             }
           }
         ]
@@ -170,17 +170,23 @@
   },
   "active": "ec57b0860cd61fe6",
   "lastOpenFiles": [
+    "docs/quick_start_guide/index.md",
+    "docs/Quick Start Guide/Getting started with your new charge point.md",
+    "docs/quick_start_guide/assets/outlet_with_QR_code_close_up.png",
+    "docs/quick_start_guide/assets/outlet_with_QR_code_reduced.png",
+    "docs/quick_start_guide/assets/navigation_menu.png",
+    "docs/quick_start_guide/assets/charging_control_on.png",
+    "docs/quick_start_guide/assets/charging_control_off.png",
+    "docs/quick_start_guide/assets/credit_card_details.png",
+    "docs/quick_start_guide/Getting started with your new charge point.md",
+    "docs/quick_start_guide/assets",
+    "docs/quick_start_guide",
+    "docs/content-tabs._md",
+    "docs/admonitions._md",
     "docs/Quick Start Guide/assets/charging_control_on.png",
     "docs/Quick Start Guide/assets/charging_control_off.png",
     "docs/Quick Start Guide/assets/navigation_menu.png",
     "docs/Quick Start Guide/assets/credit_card_details.png",
-    "docs/Quick Start Guide/assets/Screenshot_20250613-094103.png",
-    "docs/Quick Start Guide/assets/navigation_pane.png",
-    "docs/Quick Start Guide/assets/Screenshot_20250619-234257.png",
-    "docs/Quick Start Guide/assets/side_navigation.jpg",
-    "docs/Quick Start Guide/assets/credit_card_details.jpg",
-    "docs/Quick Start Guide/assets/outlet_with_QR_code_close_up.png",
-    "docs/Quick Start Guide/assets/outlet_with_QR_code_reduced.png",
     "docs/Quick Start Guide/assets",
     "docs/Quick Start Guide/New folder",
     "docs/content-tabs.md",
