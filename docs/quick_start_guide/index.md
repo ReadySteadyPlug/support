@@ -47,13 +47,15 @@ Charge point with QR code and pairing ID (1234ABCD5-1)
     2. You will be taken to the RSP sign up screen where you can create a new account using your email address or an existing Google account if you prefer.
     3. Once you have finished signing up, tap the "Manage Charge Points" menu item and enter the charge point ID (refer image below). In the example above, the charge point ID is **(1234ABCD5-1)**.
 
+* Select either **Pair using Charge Point ID** or **Pair using QR Code** to add a charge point.
+* Tap the "<span style="color: red;">x</span>" under **Action** to remove a charge point.
+
 ![managing_charge_points](assets/manage_charge_point.png){width="300"}
 /// caption
 Add or remove charge points from your account
 ///
 
-* Select either **Pair using Charge Point ID** or **Pair using QR Code** to add a charge point.
-* Tap the "x" under **Action** to remove a charge point.
+
 
 ### Adding an additional charge point
 If you have multiple charge points and want to add another, just scan the QR code or use the "Manage Charge Points" menu item as described inthe previous section.
