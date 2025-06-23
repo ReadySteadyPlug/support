@@ -266,6 +266,7 @@
 
 
 <!-- Main site box descriptions -->
+{%- if config.home_show_bottom_pane -%}
 <div class="top-hr">
 
     <!-- Start Outer Condition -->
@@ -367,15 +368,17 @@
         </h2>
         <p>{{ config.home_button3_blurb }}</p>
     </div>
-    {%- endif -%}
+    {%- endif -%}   
     <!-- End Outer Condition -->
 </div>
+
 
 <div class="top-hr">
     <div class="hr">
     </div>
 </div>
 
+{%- endif -%}   <!-- end of home_show_bottom_pane -->
 
 <!-- Toggleable JavaScript execution -->
 {%- if config.home_execute_js -%}
@@ -389,5 +392,7 @@ document$.subscribe(function() {
 
 
 {% endblock %}
-{% block content %}{% endblock %}
-{% block footer %}{% endblock %}
+{%- if config.home_show_bottom_pane -%} <!-- also hides the bottom block and footer-->
+    {% block content %}{% endblock %}
+    {% block footer %}{% endblock %}
+{%- endif -%}

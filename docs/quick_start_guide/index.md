@@ -27,7 +27,7 @@ The left hand navigation provides access to all the key functions.
 Navigation Menu
 ///
 
-### Initial Pairing
+### Initial pairing of your charge point
 The easiest way is to scan the QR code on the front of the charge point, but if you don't have access to a phone with QR scanning capability, we provide an alternate method using the charge point ID code, printed under the QR code on the charge point.
 
 ![Charge point with QR code and pairing ID](assets/outlet_with_QR_code_close_up.png){width="300"}
