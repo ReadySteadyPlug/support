@@ -55,8 +55,6 @@ Charge point with QR code and pairing ID (1234ABCD5-1)
 Add or remove charge points from your account
 ///
 
-
-
 ### Adding an additional charge point
 If you have multiple charge points and want to add another, just scan the QR code or use the "Manage Charge Points" menu item as described inthe previous section.
 
