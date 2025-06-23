@@ -1,0 +1,190 @@
+{
+  "main": {
+    "id": "eee2f412dafbb3e3",
+    "type": "split",
+    "children": [
+      {
+        "id": "422d68f73c0da3b8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ec57b0860cd61fe6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Quick Start Guide/Getting started with your new charge point.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Getting started with your new charge point"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fa24199830a2438b",
+    "type": "split",
+    "children": [
+      {
+        "id": "9a725895363e3357",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "41c583f2e98d2b58",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "41652450017e78b9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "d5043e07b6f53b1c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c8d90afc9973f663",
+    "type": "split",
+    "children": [
+      {
+        "id": "c5ab369bebd89270",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3d5fde7949eef251",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/Quick Start Guide/Getting started with your new charge point.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Getting started with your new charge point"
+            }
+          },
+          {
+            "id": "d07f6373dac6eed9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/Quick Start Guide/Getting started with your new charge point.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Getting started with your new charge point"
+            }
+          },
+          {
+            "id": "c79a1507b9258372",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "25c31fad739542e0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/Quick Start Guide/Getting started with your new charge point.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Getting started with your new charge point"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "ec57b0860cd61fe6",
+  "lastOpenFiles": [
+    "docs/Quick Start Guide/assets/charging_control_on.png",
+    "docs/Quick Start Guide/assets/charging_control_off.png",
+    "docs/Quick Start Guide/assets/navigation_menu.png",
+    "docs/Quick Start Guide/assets/credit_card_details.png",
+    "docs/Quick Start Guide/assets/Screenshot_20250613-094103.png",
+    "docs/Quick Start Guide/assets/navigation_pane.png",
+    "docs/Quick Start Guide/assets/Screenshot_20250619-234257.png",
+    "docs/Quick Start Guide/assets/side_navigation.jpg",
+    "docs/Quick Start Guide/assets/credit_card_details.jpg",
+    "docs/Quick Start Guide/assets/outlet_with_QR_code_close_up.png",
+    "docs/Quick Start Guide/assets/outlet_with_QR_code_reduced.png",
+    "docs/Quick Start Guide/assets",
+    "docs/Quick Start Guide/New folder",
+    "docs/content-tabs.md",
+    "docs/admonitions.md",
+    "docs/index.md"
+  ]
+}
