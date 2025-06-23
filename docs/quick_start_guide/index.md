@@ -1,3 +1,23 @@
+## Install the RSP app
+To interact with your charge point, including initial pairing and starting/stopping charge sessions, access the RSP web app as follows (the app will be available for both Android and iOS in the near future (July 2025)):  
+
+=== "Web app"
+	If you don't want to use an app, or want to access it from your computer web browser, you can access all functionality at [https://prod.readysteadyplug.com](https://prod.readysteadyplug.com).
+
+=== "iOS (coming soon)"
+	Visit the [iOS app store](https://apple.com/au/app-store/) and search for ReadySteadyPlug
+
+=== "Android (coming soon)"
+	Visit [Google Play](https://play.google.com/store/apps/) and search for ReadySteadyPlug
+
+## Main app navigation
+The left hand navigation provides access to all the key functions.
+
+![Navigation Menu](assets/navigation_menu.png){width="300"}
+/// caption
+Navigation Menu
+///
+
 ## Pairing your charge point
 
 There are a few ways you can perform the initial pairing of your charge point.
@@ -5,27 +25,6 @@ There are a few ways you can perform the initial pairing of your charge point.
 !!! note "Note"
 
     Note you only need to pair your device once.  After that you can just use the RSP app to simply start/stop or schedule your charging session as per the instructions below.
-
-
-### Install the RSP app
-The RSP app is available for both Android and iOS and is the easiest easy to interact with your charge point, including initial pairing and starting/stopping charge sessions.
-
-=== "iOS"
-	Visit the [iOS app store](https://apple.com/au/app-store/) and search for ReadySteadyPlug
-
-=== "Android"
-	Visit [Google Play](https://play.google.com/store/apps/) and search for ReadySteadyPlug
-
-=== "Web app"
-	If you don't want to use an app, or want to access it from your computer web browser, you can access all functionality at [https://prod.readysteadyplug.com](https://prod.readysteadyplug.com).
-
-### Main app navigation
-The left hand navigation provides access to all the key functions.
-
-![Navigation Menu](assets/navigation_menu.png){width="300"}
-/// caption
-Navigation Menu
-///
 
 ### Initial pairing of your charge point
 The easiest way is to scan the QR code on the front of the charge point, but if you don't have access to a phone with QR scanning capability, we provide an alternate method using the charge point ID code, printed under the QR code on the charge point.

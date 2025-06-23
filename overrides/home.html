@@ -266,7 +266,7 @@
 
 
 <!-- Main site box descriptions -->
-{%- if config.home_show_bottom_pane -%}
+{%- if config.home_show_bottom_pane -%} <!-- hide the bottom pane if this is set to false in mkdocs.yml -->
 <div class="top-hr">
 
     <!-- Start Outer Condition -->
@@ -392,6 +392,7 @@ document$.subscribe(function() {
 
 
 {% endblock %}
+
 {%- if config.home_show_bottom_pane -%} <!-- also hides the bottom block and footer-->
     {% block content %}{% endblock %}
     {% block footer %}{% endblock %}

@@ -59,7 +59,7 @@ theme:
   features:
     - navigation.tabs             # Static upper section tabs (exist)
     - navigation.tabs.sticky      # Static upper section tabs (stay)
-    - navigation.footer           # Add 'previous' and 'next' buttons in the footer
+    #- navigation.footer           # Add 'previous' and 'next' buttons in the footer
     - navigation.sections
     - navigation.instant          # Keep navigation from reloading
     - toc.integrate
