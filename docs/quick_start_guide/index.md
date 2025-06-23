@@ -91,6 +91,7 @@ Charging control - charge point turned on
 
 ### Scheduled charging
 You can schedule the start/stop of a charging session to take place at a specific time. eg to take advantage of cheaper energy costs overnight.
+
 * Tap the **Scheduled Charging** toggle
 * Set the **On-time** and **Off-time**
 * Tap the **Set** button
@@ -103,6 +104,7 @@ Scheduled charging
 ## Viewing charging information
 ### Historical charging sessions
 Tap on **Charging Sessions** in the main navigation to see your past charging sessions. Details include:
+
 * Charge session date and time
 * Duration
 * Energy used (kWh)
@@ -116,6 +118,7 @@ Charging sessions
 
 ### Historical energy usage
 Tap on **Energy** in the main navigation to see your historical energy usage. Details include:
+
 * Time and date range
 * Energy usage for selected time period
 * Cost for selected time period
@@ -127,6 +130,7 @@ Historical energy usage
 
 ## Payment history
 Tap on **Payment History** in the main navigation to see your past payments. Details include:
+
 * Current balance
 * Previous payments including date/time and amount.
 * Any top-up events
@@ -137,8 +141,23 @@ Tap on **Payment History** in the main navigation to see your past payments. Det
 Payment history
 ///
 
-## Account Details
-Tap on **Circular Icon** in the top right hand corner. This allows you to manage:
+## Notifications & Account Details
+### Notifications
+The app will provide notifications when:
+
+* A charging session has commenced
+* A charging session has stopped
+* A charging session has been scheduled
+* Credit has been topped up
+
+![account_details](assets/notifications.png){width="300"}
+/// caption
+Notifications
+///
+
+### Account Details
+Tap on the **Circular Icon** in the top right hand corner. This allows you to manage:
+
 * Password
 * Logout from the app
 
@@ -147,3 +166,5 @@ Tap on **Circular Icon** in the top right hand corner. This allows you to manage
 Account details
 ///
 
+## More help
+If you need more assistance in any way, please do not hesitate to contact us at [support@readysteadyplug.com](mailto:support@readysteadyplug.com).
