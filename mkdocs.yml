@@ -139,4 +139,5 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 
-copyright: Copyright &copy; [2025 ReadySteadyPlug Pty Limited](https://readysteadyplug.com) 
+#copyright: Copyright &copy; [2025 ReadySteadyPlug Pty Limited](https://readysteadyplug.com) 
+copyright: Copyright &copy; <a href="https://ReadySteadyPlug.com" target= "_blank">2025 ReadySteadyPlug Pty Limited</a>
