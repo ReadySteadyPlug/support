@@ -41,12 +41,13 @@
     }
 
     .tx-hero__image{
-        width:17rem;
-        height:17rem;
+        max-width:32rem;
+        /*height:17rem;*/
         order:1;
         padding-right: 2.5rem;
     }
 
+ 
     .tx-hero .md-button {
         margin-top: .5rem;
         margin-right: .5rem;
@@ -111,6 +112,15 @@
         margin: 0 0 10px;
         display: block;
     }
+
+    .tx-footer__image{
+        max-width:300px;
+        /*height:17rem;*/
+        order:1;
+        padding-right: 2.5rem;
+        text-align: center;
+    }
+
 
     @media screen and (max-width:30em) {
         .tx-hero h1 {
@@ -268,7 +278,7 @@
 <!-- Main site box descriptions -->
 {%- if config.home_show_bottom_pane -%} <!-- hide the bottom pane if this is set to false in mkdocs.yml -->
 <div class="top-hr">
-
+    
     <!-- Start Outer Condition -->
     {%- if config.home_button1_name -%}
     <div class="feature-item">
@@ -378,7 +388,33 @@
     </div>
 </div>
 
+
+
 {%- endif -%}   <!-- end of home_show_bottom_pane -->
+
+<div>
+    <br/>
+    <br/>
+{%- if config.home_footer_blurb -%}
+
+        <p class="text-center">
+	        <!-- Button Description -->
+            {{ config.home_footer_blurb }}
+        </p>
+{%- endif -%}
+<!-- End Outer Condition -->
+        
+<!-- Image Icon -->
+{%- if config.home_footer_image -%}
+    <div class="tx-footer__image text-center">
+        <a href="{{ config.home_footer_link }}" target="_blank">
+            <img src="{{ config.home_footer_image }}" draggable="false" style="max-width:250px">
+        </a>
+    </div>
+{%- endif -%}
+</div>
+
+
 
 <!-- Toggleable JavaScript execution -->
 {%- if config.home_execute_js -%}
@@ -393,7 +429,10 @@ document$.subscribe(function() {
 
 {% endblock %}
 
-{%- if config.home_show_bottom_pane -%} <!-- also hides the bottom block and footer-->
+{%- if config.home_show_bottom_pane -%} <!-- also hides the bottom block.-->
     {% block content %}{% endblock %}
-    {% block footer %}{% endblock %}
 {%- endif -%}
+
+
+{% block footer %}
+{% endblock %}

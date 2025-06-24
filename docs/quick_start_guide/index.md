@@ -60,7 +60,19 @@ If you have multiple charge points and want to add another, just scan the QR cod
 
 ### Removing a charge point
 If you want to remove the charge point from your account for any reason, Tap the "<span style="color: red;">x</span>" under **Action** to remove a charge point. Note you will no longer be able to start a charging session until you re-pair.
-If you want to re-add it into your account, just follow the pairing process again, as described above.
+If you want to re-add it into your account, just follow the pairing process again, as described [above](#initial-pairing-of-your-charge-point).
+
+### Charge Point FAQ's
+??? note "FAQ - Can someone pair my charge point without me knowing?"
+
+    No one can pair with or unpair the CP while it is linked to your account.
+    If you wish to unpair it, you can do so as described [above](#removing-a-charge-point).
+    Once removed, someone else – such as a visitor or other tenant – can pair the CP using their own account and credit card.
+    When you want to use the CP again after unpairing it, just follow the pairing instructions [above](#initial-pairing-of-your-charge-point).
+
+??? note "FAQ - Can someone use my charge point without my authorisation?"
+    There’s no need to worry about anyone using your charge point without your authorisation.
+    You can switch it OFF whenever it’s not in use, and in any case, it will automatically turn OFF after one hour of inactivity.
 
 
 ## Setting up billing details
@@ -70,7 +82,15 @@ To start a charge session, tap "Card Details" from the left hand navigation.
 /// caption
 Add credit card details
 ///
-At the end of the process your credit card is charged $20, which will be your initial balance. This is also the amount that the system automatically charges your credit card once the balance goes below $5 (similar to how E-Toll or Opal cards work.)
+At the end of the process your credit card is charged $20, which will be your initial balance. This is also the amount that the system automatically charges your credit card once the balance goes below $5 (similar to how E-Toll or Opal cards work.)
+
+### Billing FAQ's
+??? note "FAQ - Can I get a refund if I stop using the system?"
+    If you decide to stop using the solution and would like the remaining balance in your
+    account returned, please select “Remove Card” in the “Card Details” view. 
+
+??? note "FAQ - Can I switch to a different credit card?"
+    Yes, please select “Remove Card” in the “Card Details” view. Then proceed to add a new card as described [above](#setting-up-billing-details).
 
 ## Starting and stopping a charge session
 ### Manual start/stop
